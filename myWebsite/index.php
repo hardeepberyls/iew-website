@@ -1,6 +1,6 @@
 <?php include("header.php") ?>
 <div class="row">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide wow fadeInDown" data-wow-duration="2s" data-wow-delay="5s" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="col-lg-10 mx-auto">
+<div class="col-lg-10 mx-auto wow fadeInDown" data-wow-duration="2s" data-wow-delay="5s">
     <div class="heading_title text-center">
         <h2>about us</h2>
     </div>
@@ -59,19 +59,19 @@
         </div>
     </div>
 
-    <div class="heading_title text-center">
+    <div class="heading_title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="5s">
         <h2>services</h2>
     </div>
 
 
-    <div class="row justify-content-around">
+    <div class="row justify-content-around wow fadeInDown" data-wow-duration="2s" data-wow-delay="5s">
         <div class="col-lg-4">
             <div class="service_card">
                 <div class="service_icon text-center">
                     <span><i class="fa-solid fa-gears"></i></span>
                 </div>
                 <div class="service_content text-center">
-                    <h3>SPM machines</h3>
+                    <h3>Service 1</h3>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                     <span><i class="fa-solid fa-gears"></i></span>
                 </div>
                 <div class="service_content text-center">
-                    <h3>Pipe bending</h3>
+                    <h3>Service 2</h3>
                 </div>
             </div>
         </div>
@@ -93,13 +93,87 @@
                     <span><i class="fa-solid fa-gears"></i></span>
                 </div>
                 <div class="service_content text-center">
-                    <h3>coil bending</h3>
+                    <h3>Service 3</h3>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="heading_title text-center">
+        <h2>latest projects</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="project_wrap">
+                <div class="p_img text-center">
+                    <img src="assets/images/homepage/service.png" alt="" class="img-fluid" />
+                </div>
+                <div class="p_content">
+                    <a href="#">
+                        <h3>project 1</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eos delectus animi, ipsam pariatur deleniti architecto a laborum libero. Mollitia eligendi delectus accusantium ad quaerat aut suscipit necessitatibus beatae perferendis!</p>
+                </div>
+                <div class="p_btn text-end">
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="project_wrap">
+                <div class="p_img text-center">
+                    <img src="assets/images/homepage/service.png" alt="" class="img-fluid" />
+                </div>
+                <div class="p_content">
+                    <a href="#">
+                        <h3>project 1</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eos delectus animi, ipsam pariatur deleniti architecto a laborum libero. Mollitia eligendi delectus accusantium ad quaerat aut suscipit necessitatibus beatae perferendis!</p>
+                </div>
+                <div class="p_btn text-end">
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="project_wrap">
+                <div class="p_img text-center">
+                    <img src="assets/images/homepage/service.png" alt="" class="img-fluid" />
+                </div>
+                <div class="p_content">
+                    <a href="#">
+                        <h3>project 1</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eos delectus animi, ipsam pariatur deleniti architecto a laborum libero. Mollitia eligendi delectus accusantium ad quaerat aut suscipit necessitatibus beatae perferendis!</p>
+                </div>
+                <div class="p_btn text-end">
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="project_wrap">
+                <div class="p_img text-center">
+                    <img src="assets/images/homepage/service.png" alt="" class="img-fluid" />
+                </div>
+                <div class="p_content">
+                    <a href="#">
+                        <h3>project 1</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eos delectus animi, ipsam pariatur deleniti architecto a laborum libero. Mollitia eligendi delectus accusantium ad quaerat aut suscipit necessitatibus beatae perferendis!</p>
+                </div>
+                <div class="p_btn text-end">
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading_title text-center wow slideInLeft" data-wow-duration="5s" data-wow-delay="10s">
         <h2>our client</h2>
     </div>
 
@@ -108,10 +182,10 @@
             <div class="large-12 columns">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <a href="#"><img src="assets/images/homepage/iai-logo.svg" alt="imperial auto logo" class="img-fluid" /></a>
+                        1
                     </div>
                     <div class="item">
-                        <a href="#"><img src="assets/images/homepage/JK-finner.png" alt="JK fenner logo" class="img-fluid" /></a>
+                        2
                     </div>
                     <div class="item">
                         <h4>3</h4>

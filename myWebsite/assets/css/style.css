@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0px;
@@ -8,7 +8,17 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: #f9f9fb;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
 }
 
 .header_section .collapse ul li a {
@@ -46,7 +56,7 @@ body {
 
 .header_section {
     background-color: #ffffff;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    transition: all 0.5s linear;
 }
 
 .service_card .service_icon {
@@ -162,4 +172,223 @@ body {
     font-weight: 400;
     text-decoration: none;
     color: #ffffff;
+}
+
+.p_content {
+    padding: 15px 0px 10px;
+}
+
+.p_content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.p_content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px;
+    text-align: justify;
+}
+
+.p_btn a {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project_wrap:hover .p_img img,
+.service_wrap:hover .p_img img {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.p_img img {
+    transition: all 0.5s ease;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.p_img {
+    overflow: hidden;
+}
+
+.project_wrap {
+    padding: 15px;
+    box-shadow: 0px 1px 50px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.fixed-top {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    padding: 15px 0px;
+    transition: all 0.5s linear;
+}
+
+.inner_header {
+    background: url("../images/homepage/bread-bg.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_content h2 {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.inner_content h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #ff9900;
+}
+
+.inner_content a {
+    color: #ffffff !important;
+}
+
+.about_call_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_call_icon span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background: #ff991e;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_call_icon span i {
+    color: #ffffff;
+}
+
+.call_no h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.call_no h3 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+}
+
+.call_btn {
+    display: flex;
+    align-items: center;
+}
+
+.call_btn a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: #ff991e;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.call_btn a:hover {
+    background-color: #ffae34;
+}
+
+.contact_wrapper,
+.service_wrapper {
+    margin: 85px 0px;
+}
+
+.address_icon {
+    display: flex;
+    justify-content: center;
+}
+
+.address_icon span {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background-color: #ff9900;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.add_detail p,
+.add_detail a {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.add_detail {
+    margin-top: 15px;
+}
+
+.contact_row {
+    padding: 50px 25px;
+    border: 1px solid #ff991d;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+}
+
+.contact_row:last-child {
+    margin-bottom: 0px;
+}
+
+.contact_row:hover .address_icon span i {
+    transform: scaleX(-1);
+    transition: all 0.5s ease-in-out;
+}
+
+.address_icon span i {
+    font-size: 24px;
+    transition: all 0.5s ease-in-out;
+}
+
+.service_wrap {
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.s_content {
+    padding: 35px 40px 15px;
+}
+
+.s_content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 15px 0px 25px;
+    text-align: center;
+}
+
+.s_content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 26px;
+    color: #808080;
 }

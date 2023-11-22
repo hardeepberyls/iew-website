@@ -25,19 +25,6 @@ $(document).ready(function () {
     })
 })
 
-// let data = document.querySelector('.header_section');
-// let scrollpos = window.scrollY;
-
-// window.addEventListener("scroll", function () {
-//     if (scrollpos >= 50) {
-//         data.classList.add("fixed-top");
-//     }
-//     else {
-//         data.classList.remove("fixed-top");
-//     }
-//     console.log(scrollpos)
-// })
-
 $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
         $('.header_section').addClass('fixed-top');
@@ -45,3 +32,7 @@ $(window).scroll(function () {
         $('.header_section').removeClass('fixed-top');
     }
 });
+
+
+// wow script run
+new WOW().init();
